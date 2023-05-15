@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+/* custom-css */
+li.bg-white.border-b.dark\:bg-gray-800.dark\:border-gray-700.hover\:bg-gray-50.dark\:hover\:bg-gray-600 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 9px;
+     margin-left: 3%;
+     margin-right: 3%;
+     margin-bottom: 1%;
+ }
+
+ .flex {
+    justify-content: center;
+ }
+
+
+ .comando {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+   margin-left: 2rem;
+   word-break: break-all;
+   margin-right: 2rem;
+}
+
+.text-white.bg-gradient-to-r.from-purple-500.via-purple-600.to-purple-700.hover\:bg-gradient-to-br.focus\:ring-4.focus\:outline-none.focus\:ring-purple-300.dark\:focus\:ring-purple-800.font-medium.rounded-lg.text-sm.px-5.py-2\.5.text-center.mr-2.mb-2 {
+   margin-top: 1rem;
+}
+
+/* // */
+html, body {
+   height: 100%;
+   margin: 0;
+ }
+ 
+ .content {
+   /* Asegura que haya suficiente espacio para el footer */
+   min-height: calc(100% - 50px); /* 50px es la altura del footer */
+   margin-bottom: 10%;
+ }
+ 
+ footer {
+   width: 100%;
+  
+ }
+ 
+
